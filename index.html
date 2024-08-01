@@ -17,10 +17,16 @@
       rel="stylesheet"
     />
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       html {
         background-color: white;
       }
       .main {
+        margin: auto;
         background: #82ae46;
         padding: 5px;
         font-size: 11px;
@@ -29,6 +35,7 @@
         right: 0;
         left: 0;
       }
+
       .call {
         margin-left: 90px;
       }
@@ -39,11 +46,12 @@
         margin-left: 22%;
       }
       .fixed {
+        margin: auto;
         background-color: white;
         padding: 20px;
         text-transform: uppercase;
         position: sticky;
-        top: 0;
+        top: 0px;
         right: 0;
         left: 0;
       }
@@ -93,11 +101,11 @@
         transform: translate(-50%, -50%);
       }
       .button {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         background-color: #82ae46;
         border: none;
-        width: 100px;
-        height: 50px;
+        width: 130px;
+        height: 45px;
         border-radius: 50px;
         padding: 0px 10px 0px 10px;
         text-align: center;
@@ -106,6 +114,58 @@
         position: absolute;
         top: 65%;
         left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .view-detail {
+        width: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .four-icons {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* margin: 80px; */
+        /* margin-left: 8rem; */
+        padding: 20px;
+        display: inline-block;
+        background-color: #82ae46;
+        border: solid;
+        border: #82ae46;
+        border-radius: 100%;
+      }
+      .section {
+        width: 1000px;
+        height: 350px;
+        display: flex;
+        background-color: aqua;
+        margin: auto;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      .box {
+        position: relative;
+        padding: 50px;
+        width: 150px;
+        height: 200px;
+        background-color: yellowgreen;
+        border: solid;
+        border: #82ae46;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+      .second-div {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+        top: 60%;
+        left: auto;
         transform: translate(-50%, -50%);
       }
     </style>
@@ -154,12 +214,27 @@
         <a>[0]</a>
       </span>
     </div>
-    <!-- <br><br><br> -->
     <div class="container">
       <img src="./images/bg_2.jpg" style="width: 100%; height: 700px" />
       <div class="food-title">100% Fresh & Organic Foods</div>
       <div class="delivery-caption">We deliver organic vegetables & fruits</div>
-      <div class="button"><p>View Details</p></div>
+      <div class="button"><p class="view-detail">View Details</p></div>
+    </div>
+
+    <div class="section">
+      <section class="box">
+        <div class="four-icons">
+          <span>
+            <img src="icon/shipped.png" style="width: 60px" />
+          </span>
+        </div>
+        <div>
+          <p class="second-div">FREE SHIPPING</p>
+        </div>
+      </section>
+      <section class="box">1</section>
+      <section class="box">1</section>
+      <section class="box">1</section>
     </div>
   </body>
 </html>
