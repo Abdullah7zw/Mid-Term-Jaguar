@@ -22,6 +22,18 @@
       href="https://fonts.googleapis.com/css2?family=Norican&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Atma:wght@300;400;500;600;700&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Atma:wght@300;400;500;600;700&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       * {
         margin: 0;
@@ -40,10 +52,11 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         right: 0;
         left: 0;
+        width: 100%;
       }
 
       .call {
-        margin-left: 90px;
+        margin-left: 10%;
       }
       .delivery {
         margin-left: 12%;
@@ -52,6 +65,8 @@
         margin-left: 22%;
       }
       .fixed {
+        width: 100%;
+        z-index: 100;
         margin: auto;
         background-color: white;
         padding: 20px;
@@ -64,11 +79,11 @@
       .logo {
         color: #82ae46;
         font-size: 22px;
-        margin-left: 90px;
+        margin-left: 10%;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
       .navigation {
-        margin-left: 350px;
+        margin-left: 30%;
         font-size: 11px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
@@ -79,7 +94,7 @@
       .shop-icon {
         font-size: 11px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 42px;
+        margin-left: 2.7rem;
       }
       .shop-0 {
         font-size: 11px;
@@ -91,12 +106,14 @@
         color: white;
       }
       .food-title {
-        font-family: "Atma", system-ui;
+        /* font-family: "Atma", system-ui; */
+        font-family: "Amatic SC", sans-serif;
         position: absolute;
         top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 90px;
+        width: 100%;
       }
       .delivery-caption {
         font-family: "B612 Mono", monospace;
@@ -146,6 +163,9 @@
         display: inline-block;
       }
       #one {
+        /* display: flex;
+        flex-direction: row-reverse; */
+
         background-color: #f1b0b7;
         border: solid;
         border: #f1b0b7;
@@ -184,7 +204,8 @@
       }
       .first-section-second-div {
         color: #82ae46;
-        font-family: "Norican", cursive;
+        font-family: "Lora", serif;
+        font-style: italic;
         font-size: 30px;
         position: absolute;
         margin: auto;
@@ -276,9 +297,10 @@
       }
       .featured-products {
         text-align: center;
-        padding-top: 150px;
+        padding-top: 120px;
         color: #82ae46;
-        font-family: "Norican", cursive;
+        font-family: "Lora", serif;
+        font-style: italic;
         font-size: 20px;
       }
       .our-products {
@@ -346,7 +368,6 @@
         text-transform: uppercase;
       }
       .discount-rate {
-
         text-align: center;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         position: absolute;
@@ -357,6 +378,139 @@
         width: 100%;
         padding: 0px;
         color: #82ae46;
+      }
+      .big-picture {
+        position: relative;
+      }
+      .detail-one {
+        color: #82ae46;
+        position: absolute;
+        margin: auto;
+        top: 25%;
+        left: 52%;
+        transform: translate(0%, -50%);
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-size: 18px;
+      }
+      .detail-two {
+        position: absolute;
+        margin: auto;
+        top: 32%;
+        left: 52%;
+        transform: translate(0%, -50%);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 42px;
+      }
+      .detail-three {
+        position: absolute;
+        margin: auto;
+        top: 42%;
+        left: 52%;
+        right: 10%;
+        transform: translate(0%, -50%);
+        color: gray;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .detail-four {
+        font-family: "Lora", serif;
+        font-size: 30px;
+        font-style: italic;
+        color: #82ae46;
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        left: 52%;
+        right: 15%;
+        transform: translate(0%, -50%);
+      }
+      .detail-five {
+        color: #82ae46;
+        position: absolute;
+        margin: auto;
+        top: 56%;
+        left: 52%;
+        transform: translate(0%, -50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .detail-six {
+        color: #82ae46;
+        position: absolute;
+        margin: auto;
+
+        left: 52%;
+        transform: translate(0%, -50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        top: 68%;
+        font-size: 42px;
+      }
+      .detail-seven {
+        font-size: 12px;
+        position: absolute;
+        margin: auto;
+        top: 75%;
+        left: 52%;
+        transform: translate(0%, -50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .section-five {
+        position: relative;
+        width: 1000px;
+        height: 500px;
+        display: flex;
+        background-color: aqua;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      .three-box-two {
+        position: relative;
+        /* padding: 50px; */
+        width: 300px;
+        height: 500px;
+        background-color: yellowgreen;
+        border: solid;
+        border: #82ae46;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+      .section-five-img {
+        position: relative;
+        position: absolute;
+        left:50%;
+       
+        top: 0%;
+        transform: translate(-50%, 0%);
+        border: solid;
+        border: none;
+        border-radius: 100%;
+        width: 100px;
+      }
+      .section-five-icon {
+        position: absolute;
+        top: 13%;
+        left: 55%;
+        background-color: #fff;
+        /* border: solid;
+        border: none; */
+        border-radius: 100%;
+        width: 32px;
+        padding: 8px;
+      }
+      .section-five-paragraph{
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        right: 17%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: gray;
+       
+
       }
     </style>
   </head>
@@ -454,7 +608,7 @@
       <section class="box">
         <div class="four-icons">
           <div id="four">
-            <img src="./icon/badge.png" style="width: 60px" />
+            <img src="./icon/customer-service.png" style="width: 60px" />
           </div>
         </div>
         <div>
@@ -545,7 +699,9 @@
           <p class="discount-title">Bell Pepper</p>
         </div>
         <div>
-          <p class="discount-rate"><a style="color: gray">$120.00</a> $80.00</p>
+          <p class="discount-rate">
+            <a style="color: gray"><del>$120.00</del></a> $80.00
+          </p>
         </div>
         <div>
           <p class="discount">30%</p>
@@ -595,7 +751,9 @@
           <p class="discount-title">Tomatoe</p>
         </div>
         <div>
-          <p class="discount-rate"><a style="color: gray">$120.00</a> $80.00</p>
+          <p class="discount-rate">
+            <a style="color: gray"><del>$120.00</del></a> $80.00
+          </p>
         </div>
         <div>
           <p class="discount">30%</p>
@@ -635,10 +793,58 @@
         </div>
       </section>
     </div>
-    <div>
+    <div class="big-picture">
       <img src="./images/bg_3.jpg" width="100%" />
-
-      
+      <div>
+        <p class="detail-one">Best Price For You</p>
+        <p class="detail-two"><strong>Deal of the day</strong></p>
+        <p class="detail-three">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia
+        </p>
+        <p class="detail-four">Spinach</p>
+        <p class="detail-five"><a style="color: gray">$10</a> now $5 only</p>
+        <p class="detail-six">
+          <a>-1683</a><a style="margin-left: 20px">03</a
+          ><a style="margin-left: 40px">33</a
+          ><a style="margin-left: 40px">33</a>
+        </p>
+        <p class="detail-seven">
+          <a>DAYS</a><a style="margin-left: 110px">HOURS</a
+          ><a style="margin-left: 56px">MINUTES</a
+          ><a style="margin-left: 37px">SECONDS</a>
+        </p>
+      </div>
+    </div>
+    <div class="featured-products">
+      <p>Testimony</p>
+    </div>
+    <div class="our-products">
+      <p style="margin-left: 30%; margin-right: 30%">
+        <strong>Our satisfied customer says</strong>
+      </p>
+    </div>
+    <div class="far-far-away">
+      <p style="margin-left: 28.5%; margin-right: 28.5%">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia, there live the blind texts. Separated they live in
+      </p>
+    </div>
+    <div class="section-five">
+      <section class="three-box-two">
+        <div>
+          <img src="./images/person_1.jpg" alt="" class="section-five-img" />
+        </div>
+        <div><img src="./icon/quotes.png" class="section-five-icon" /></div>
+        <div>
+          <p class="section-five-paragraph">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </section>
+      <section class="three-box-two">1</section>
+      <section class="three-box-two">1</section>
     </div>
   </body>
 </html>
