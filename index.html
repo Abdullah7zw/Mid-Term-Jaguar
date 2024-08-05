@@ -42,6 +42,7 @@
       }
       html {
         background-color: white;
+        /* background-color: #f1b0b7; */
       }
       .main {
         margin: auto;
@@ -83,6 +84,7 @@
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
       .navigation {
+        letter-spacing: 2px;
         margin-left: 30%;
         font-size: 11px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -92,9 +94,10 @@
       .blog,
       .contact,
       .shop-icon {
+        letter-spacing: 2px;
         font-size: 11px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 2.7rem;
+        margin-left: 2rem;
       }
       .shop-0 {
         font-size: 11px;
@@ -458,7 +461,7 @@
         width: 1000px;
         height: 500px;
         display: flex;
-        background-color: aqua;
+        /* background-color: aqua; */
         margin-top: 100px;
         margin-left: auto;
         margin-bottom: auto;
@@ -471,7 +474,7 @@
         /* padding: 50px; */
         width: 300px;
         height: 500px;
-        background-color: yellowgreen;
+        /* background-color: yellowgreen; */
         border: solid;
         border: #82ae46;
         margin: auto;
@@ -481,8 +484,8 @@
       .section-five-img {
         position: relative;
         position: absolute;
-        left:50%;
-       
+        left: 50%;
+
         top: 0%;
         transform: translate(-50%, 0%);
         border: solid;
@@ -501,7 +504,8 @@
         width: 32px;
         padding: 8px;
       }
-      .section-five-paragraph{
+      .section-five-paragraph {
+        line-height: 1.6;
         text-align: center;
         position: absolute;
         top: 30%;
@@ -509,8 +513,129 @@
         right: 17%;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: gray;
-       
+      }
+      .section-five-paragraph2 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .section-five-paragraph3 {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        color: gray;
+        text-transform: uppercase;
 
+        letter-spacing: 2px;
+      }
+      .section-six {
+        position: relative;
+        width: 1000px;
+        height: 100px;
+        display: flex;
+        /* background-color: aqua; */
+        margin-top: 100px;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      .five-box {
+        position: relative;
+        /* padding: 50px; */
+        width: 150px;
+        height: 100px;
+        /* background-color: yellowgreen; */
+        border: solid;
+        border: #82ae46;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+      .section-seven {
+        position: relative;
+        width: 1000px;
+        height: 100px;
+        display: flex;
+        /* background-color: aqua; */
+        margin-top: 100px;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      .two-box {
+        position: relative;
+        /* padding: 50px; */
+        width: 450px;
+        height: 100px;
+        /* background-color: yellowgreen; */
+        border: solid;
+        border: #82ae46;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+      .h2 {
+        position: absolute;
+        left: 0;
+        font-size: 22px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .get-email-update {
+        position: absolute;
+        left: 0;
+        top: 40%;
+        color: gray;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+      }
+      .input {
+        position: absolute;
+        left: 0;
+        top: 25%;
+        height: 50px;
+        width: 350px;
+        border: none;
+        background-color: white;
+      }
+      .subscribe-button {
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 25%;
+        height: 50px;
+        width: 100px;
+        border: none;
+        background-color: #82ae46;
+      }
+      .icon-arrowhead {
+        margin-top: 12px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 0%);
+        width: 50px;
+        display: inline-block;
+        background-color: #82ae46;
+        border: solid;
+        border: #82ae46;
+        border-radius: 100%;
+        padding: 15px;
       }
     </style>
   </head>
@@ -842,9 +967,103 @@
             Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
+        <div>
+          <p class="section-five-paragraph2">Garreth Smith</p>
+          <p class="section-five-paragraph3">System Analyst</p>
+        </div>
       </section>
-      <section class="three-box-two">1</section>
-      <section class="three-box-two">1</section>
+
+      <section class="three-box-two">
+        <div>
+          <img src="./images/person_1.jpg" alt="" class="section-five-img" />
+        </div>
+        <div><img src="./icon/quotes.png" class="section-five-icon" /></div>
+        <div>
+          <p class="section-five-paragraph">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div>
+          <p class="section-five-paragraph2">Garreth Smith</p>
+          <p class="section-five-paragraph3">Marketing Manager</p>
+        </div>
+      </section>
+
+      <section class="three-box-two">
+        <div>
+          <img src="./images/person_2.jpg" alt="" class="section-five-img" />
+        </div>
+        <div><img src="./icon/quotes.png" class="section-five-icon" /></div>
+        <div>
+          <p class="section-five-paragraph">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div>
+          <p class="section-five-paragraph2">Garreth Smith</p>
+          <p class="section-five-paragraph3">Interface Designer</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="section-six">
+      <section class="five-box">
+        <img
+          src="./images/partner-1.png"
+          style="width: 100%; align-self: start"
+        />
+      </section>
+      <section class="five-box">
+        <img
+          src="./images/partner-2.png"
+          style="width: 100%; align-self: start"
+        />
+      </section>
+      <section class="five-box">
+        <img
+          src="./images/partner-3.png"
+          style="width: 100%; align-self: start"
+        />
+      </section>
+      <section class="five-box">
+        <img
+          src="./images/partner-4.png"
+          style="width: 100%; align-self: start"
+        />
+      </section>
+      <section class="five-box">
+        <img
+          src="./images/partner-5.png"
+          style="width: 100%; align-self: start"
+        />
+      </section>
+    </div>
+
+    <div class="section-seven">
+      <section class="two-box">
+        <p class="h2">Subcribe to our Newsletter</p>
+        <p class="get-email-update">
+          Get e-mail updates about our latest shops and special offers
+        </p>
+      </section>
+      <section class="two-box">
+        <form>
+          <input
+            type="text"
+            value="Enter email address
+          "
+            class="input"
+          />
+          <button class="subscribe-button">Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <div style="border-color: #82ae46">
+      <a href="index.html"
+        ><img src="./icon/arrowhead-up.png" class="icon-arrowhead"
+      /></a>
     </div>
   </body>
 </html>
