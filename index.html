@@ -637,6 +637,57 @@
         border-radius: 100%;
         padding: 15px;
       }
+      .footer {
+        position: relative;
+        width: 1000px;
+        height: 250px;
+        display: flex;
+        /* background-color: aqua; */
+        margin-top: 70px;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        justify-content: center;
+      }
+      .footer-section {
+        position: relative;
+        /* padding: 50px; */
+        width: 250px;
+        height: 250px;
+        /* background-color: yellowgreen; */
+        border: solid;
+        border: #82ae46;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-around;
+      }
+      .heading {
+        position: absolute;
+        left: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+      }
+      .footer-paragraph {
+        position: absolute;
+        left: 0;
+        top: 15%;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        line-height: 1.6;
+      }
+      .twitter-icon {
+        position: absolute;
+        left: 0;
+        top: 80%;
+      }
+      .end-copyright {
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 40px;
+        margin-bottom: 60px;
+      }
     </style>
   </head>
   <body>
@@ -1066,4 +1117,79 @@
       /></a>
     </div>
   </body>
+  <footer>
+    <div class="footer">
+      <section class="footer-section" style="width: 200px">
+        <p class="heading"><strong>Vegefoods</strong></p>
+        <p class="footer-paragraph">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia.
+        </p>
+        <img src="./icon/twitter.png" class="twitter-icon" />
+        <img
+          src="./icon/facebook-app-symbol.png"
+          class="twitter-icon"
+          style="left: 25%"
+        />
+        <img
+          src="./icon/instagram-logo.png"
+          class="twitter-icon"
+          style="left: 50%"
+        />
+      </section>
+      <section class="footer-section" style="width: 150px">
+        <p class="heading" style="left: 0"><strong>Menu</strong></p>
+        <p class="footer-paragraph" style="left: 0">Shop</p>
+        <p class="footer-paragraph" style="left: 0; top: 30%">About</p>
+        <p class="footer-paragraph" style="left: 0; top: 45%">Journal</p>
+        <p class="footer-paragraph" style="left: 0; top: 60%">Contact Us</p>
+      </section>
+      <section class="footer-section">
+        <p class="heading" style="left: 0"><strong>Help</strong></p>
+        <pre class="footer-paragraph" style="left: 0">
+Shipping Information     FAQs</pre
+        >
+        <pre class="footer-paragraph" style="left: 0; top: 30%">
+Returns & Exchange      Contact</pre
+        >
+        <p class="footer-paragraph" style="left: 0; top: 45%">
+          Terms & Conditions
+        </p>
+        <p class="footer-paragraph" style="left: 0; top: 60%">Privacy Policy</p>
+      </section>
+      <section class="footer-section" style="width: 200px">
+        <p class="heading"><strong>Have a Questions?</strong></p>
+        <img
+          src="./icon/location-pin.png"
+          class="footer-paragraph"
+          style="left: 0"
+        />
+        <p class="footer-paragraph" style="left: 20%">
+          203 Fake St. Mountain View, San Francisco, California, USA
+        </p>
+        <img
+          src="./icon/call.png"
+          class="footer-paragraph"
+          style="left: 0; top: 46%"
+        />
+        <p class="footer-paragraph" style="left: 20%; top: 45%">
+          +2 392 3929 210
+        </p>
+        <img
+          src="./icon/mail.png"
+          class="footer-paragraph"
+          style="left: 0; top: 61%"
+        />
+        <p class="footer-paragraph" style="left: 20%; top: 60%">
+          info@yourdomain.com
+        </p>
+      </section>
+    </div>
+    <div>
+      <p class="end-copyright">
+        Copyright ©2024 All rights reserved | This template is made with
+        <img src="./icon/heart.png" /> by <a style="color: #82ae46">Colorlib</a>
+      </p>
+    </div>
+  </footer>
 </html>
